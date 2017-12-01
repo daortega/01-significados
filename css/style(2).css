@@ -94,9 +94,9 @@ float: left; display: inline;
 
     .legend{
       position: fixed;
+      font-size: 11px;
       bottom: 30px;
       right: 30px;
-      width: auto;
       height: auto;
       background-color: #eee;
       padding: 1.5em;
