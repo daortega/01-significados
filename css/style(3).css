@@ -1,0 +1,43 @@
+.legend {
+  font-size: 13px;
+}
+h1 {
+text-align: center;
+padding: 0.5em;
+}
+rect {
+  stroke-width: 2;
+}
+#chart {
+height: 90px;
+margin: 0 auto;
+position: relative;
+width: 90px;
+background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/01_Gv05-Man.svg);
+background-repeat: no-repeat;
+background-size: 60%;
+background-position: 50%;
+}
+.tooltip {
+box-shadow: 0 0 5px #999999;
+display: none;
+font-size: 12px;
+left: 18px;
+padding: 20px;
+position: absolute;
+text-align: center;
+top: 18px;
+width: 44px;
+height: 44px;
+z-index: 10;
+line-height: 140%; /*Interlineado*/
+font-family: "Open Sans", sans-serif;
+font-weight: 300;
+background: rgba(0, 0, 0, 0.6);
+color: #fff;
+border-radius: 60px;
+}
+
+.label {
+ font-weight: 600;
+}

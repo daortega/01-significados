@@ -1,0 +1,60 @@
+/*.popover{
+  background-color: rgba(10, 10, 10, 0.79);
+  color: white;
+}
+
+.popover-title{
+  background-color: transparent;
+}*/
+
+/*.Repetidas{/*Necesito crear una función o algo que haga que si la cantidad de respuestas es menor a X, mejor desaparezca la visualización*/
+/*  max-width: 50px;
+  display: none;
+}*/
+
+[class="16_Evacuate"]{
+  background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/16_Gv05-Evacuate.svg);
+  background-repeat: no-repeat;
+  background-size: 60px;
+  background-position: center;
+}
+[class="17_Evacuate_fast"]{
+  background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/17_Gv05-Evacuate_fast.svg);
+  background-repeat: no-repeat;
+  background-size: 60px;
+  background-position: center;
+}
+
+[class="27_Geo_point"]{
+  background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/27_Gv05-Geo_point.svg);
+  background-repeat: no-repeat;
+  background-size: 60px;
+  background-position: center;
+}
+
+[class="06_Assembly_family"]{
+  background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/06_Gv05-Assembly_family.svg);
+  background-repeat: no-repeat;
+  background-size: 60px;
+  background-position: center;
+}
+[class="05_Assembly_group"]{
+  background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/05_Gv05-Assembly_group.svg);
+  background-repeat: no-repeat;
+  background-size: 60px;
+  background-position: center;
+}
+
+.Triangulo-amarillo{
+  background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/93_Gv05-Contain_triangle.svg);
+  background-repeat: no-repeat;
+  background-size: 60px;
+  background-position: center;
+}
+
+.Octagono-rojo{
+  background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/94_Gv05-Contain_octagon.svg);
+  background-repeat: no-repeat;
+  background-size: 60px;
+  background-position: center;
+}
