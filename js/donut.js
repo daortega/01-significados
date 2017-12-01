@@ -55,8 +55,8 @@ d3.csv("data/data.csv", function(error, data) {
           .attr("id",function(d) { return d.Icon; })  //asignará un background (icono) para cada gráfico
         .append("svg")
           .attr("class", "casi")
-          .attr("width", "138")
-          .attr("height", "118")
+          .attr("width", "148")
+          .attr("height", "148")
         .append("g")
           .attr("transform", "translate(" + radius + "," + radius + ")");
 
