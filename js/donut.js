@@ -1,4 +1,3 @@
-
 var radius = 74,
     padding = 10;
 
@@ -79,8 +78,8 @@ d3.csv("data/data.csv", function(error, data) {
               })
               .on('mousemove', function(d) {
                   $("#tooltip")
-                    .css('left', d3.event.pageX+100)
-                    .css('top', d3.event.pageY+100);
+                    .css('left', d3.event.pageX-200)
+                    .css('top', d3.event.pageY-200);
               })
 
               .on('mouseout', function(d) {
