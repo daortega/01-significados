@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://test.guemil.info/pdf.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meaning Results | Guemil Project</title>
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/png" href="http://www.guemil.info/wp-content/themes/guemil/images/favicon.png">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/style(2).css" rel="stylesheet" type="text/css">
+<style type="text/css">
+    .slice text {
+        font-size: 16pt;
+    }
+    #tooltip {
+      display: none;
+      position: absolute;
+      background-color: #f5f5f5;
+      border: 1px solid #bbb;
+      padding: 5px 8px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      -webkit-box-shadow: 3px 4px 5px 0px rgba(50, 50, 50, 0.3);
+      -moz-box-shadow:    3px 4px 5px 0px rgba(50, 50, 50, 0.3);
+      box-shadow:         3px 4px 5px 0px rgba(50, 50, 50, 0.3);
+    }
+
+
+</style>
+
+
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+<header>
+<div class="encabezado clearfix">
+  <div class="inner">
+    <h1 class="encabezado-brand"><a href="http://www.guemil.info/">Guemil Project</a></h1>
+    <nav>
+    <ul class="nav encabezado-nav">
+      <li><a href="http://www.guemil.info/about-guemil/">About Guemil</a></li>
+      <li><a href="http://test.guemil.info/index.php">Testing Guemil</a></li>
+      <li><a href="http://test.guemil.info/pdf.php">Take the Test</a></li>
+      <li class="active"><a href="#">See the Results</a></li>
+    </ul>
+    </nav>
+  </div><!--inner-->
+</div><!--col-->
+</header>
+</div>
+
+<div class="col-sm-12">
+  <aside class="row">
+    <div class="col-sm-6">
+      <h3>Meaning Visualization<br><small>Based on test for Guemil Project, icons for emergency</small></h3>
+    </div><!--col-sm-6-->
+    <div class="col-sm-6">
+      <span lang="es">
+        <h3>Resultados de Significado<br><small>Basados en los test del Proyecto Guemil, iconos para la emergencia</small></h3>
+      </span>
+    </div><!--col-sm-6-->
+    <div class="col-sm-12">
+    <hr>
+    </div>
+  </aside>
+</div><!--row-->
+
+<section class="row">
+        <div class="col-xs-12">
+          <div id="tooltip"></div>
+        </div>
+</section>
+
+<section class="holi">
+</section>
+
+<section class="row">
+    <div class="row text-center">
+      <div class="col-sm-12">
+      <hr>
+      </div>
+        <div class="col-sm-4">
+            <img src="http://www.guemil.info/wp-content/uploads/2016/07/81_Gv05-Number_one.svg">
+            <h4><a href="http://localhost/test-guemilproject_files/01-significado.html">Meaning Visualization</a></h4>
+            <h4><a href="http://localhost/test-guemilproject_files/01-significado.html">Visualización de Significados</a></h4>
+        </div>
+        <div class="col-sm-4">
+            <img src="http://www.guemil.info/wp-content/uploads/2016/07/82_Gv05-Number_two.svg">
+            <h4><a href="#">Differences Visualization</a></h4>
+            <h4><a href="#">Visualización de Diferencias</a></h4>
+        </div>
+        <div class="col-sm-4">
+            <img src="http://www.guemil.info/wp-content/uploads/2016/07/83_Gv05-Number_three.svg">
+            <h4><a href="#">Performance Visualization</a></h4>
+            <h4><a href="#">Visualización de Desempeño</a></h4>
+        </div>
+    </div>
+</section>
+
+</div><!--col-sm-12-->
+</div><!--/row-->
+<!--/container-->
+
+<div class="container-flow">
+  <div class="row">
+    <div class="col-sm-12">
+    <footer><p>Guemil Project by <a href="mailto:rramireo@uc.cl">Rodrigo Ramírez</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p></footer>
+    </div><!--/col-sm-12-->
+  </div>
+</div>
+
+<!--script src="js/jquery.min.js.descarga"></script>
+<script src="js/bootstrap.min.js.descarga"></script-->
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js"></script>
+<script src="js/donut.js"></script>
+<script>
+    $(document).ready(function(){
+        $('[data-toggle="popover"]').popover();
+    });
+
+  /*  $.getJSON('http://www.vimeo.com/api/v2/video/31894179.json?callback=?', {format: "json"}, function(data) {
+    $("h1").html(data[0].title);
+    $("p").html(data[0].description);
+  });*/
+</script>
+
+</body></html>
