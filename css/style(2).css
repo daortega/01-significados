@@ -1,0 +1,109 @@
+.pie {
+float: left; display: inline;
+/*width: 150px; position: relative;*/}
+
+    #man, #woman, #assembly_couple, #disabled, #assembly_group, #assembly_family, #girl, #boy,
+    #authority_instruction, #help_others, #keep_safe, #evacuate_vertical,#evacuate_downstairs,
+    #evacuate_male_pedestrian, #evacuate_female_pedestrian, #evacuate, #evacuate_fast, #evacuate_way_out,
+    #move_to_shelter, #warning_tsunami_risk, #warning_evacuation_way, #warning_volcano_risk, #warning_sign,
+    #authorities, #food, #water, #geo_point, #map_point, #hospital, #school, #local_authority_bldg,
+    #orientation, #network, #radio, #mobile_info, #mobile_message, #mobile_call, #house, #shelter,
+    #temperature, #time, #volcano_fumarole, #volcano_eruption, #volcano_ashes, #tsunami, #earthquake,
+    #rainfall, #alluvium, #avalanche, #forbidden, #flood, #fire, #info_point, #not_allowed, #messaging_oneway,
+    #messaging_twoways, #information, #north_sign, #flagged_point, #wifi, #internet, #radio_transmission,
+    #contain_message, #warning_strip_1, #warning_strip_2, #arrow_ahead, #arrow_turn, #arrow_backward,
+    #two_way_vertical, #two_way_horizontal, #contain_directional, #contain_hexagon
+      {
+        background-size: 25% 25%;
+        background-repeat: no-repeat;
+        background-position: 50% 40%;
+        padding: 1em;
+    }
+    #man {background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/01_Gv05-Man.svg);}
+    #woman{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/02_Gv05-Woman.svg)}
+    #assembly_couple{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/03_Gv05-Assembly_couple.svg)}
+    #disabled{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/04_Gv05-Disabled.svg)}
+    #assembly_group{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/05_Gv05-Assembly_group.svg)}
+    #assembly_family{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/06_Gv05-Assembly_family.svg)}
+    #girl{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/07_Gv05b-Girl.svg)}
+    #boy{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/08_Gv05b-Boy.svg)}
+    #authority_instruction{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/09_Gv05-Authority_instruction.svg)}
+    #help_others{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/10_Gv05-Help_others.svg)}
+    #keep_safe{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/11_Gv05-Keep_safe.svg)}
+    #evacuate_vertical{background-image: url(  http://www.guemil.info/wp-content/uploads/2016/07/12_Gv05-Evacuate_vertical.svg)}
+    #evacuate_downstairs{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/13_Gv05-Evacuate_downstairs.svg)}
+    #evacuate_male_pedestrian{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/14_Gv05-Evacuate_male_pedestrian.svg)}
+    #evacuate_female_pedestrian{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/15_Gv05-Evacuate_female_pedestrian.svg)}
+    #evacuate{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/16_Gv05-Evacuate.svg)}
+    #evacuate_fast{background-image: url(  http://www.guemil.info/wp-content/uploads/2016/07/17_Gv05-Evacuate_fast.svg)}
+    #evacuate_way_out{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/18_Gv05-Evacuate_way_out.svg)}
+    #move_to_shelter{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/19_Gv05-Move_to_shelter.svg)}
+    #warning_tsunami_risk{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/20_Gv05-Warning_tsunami_risk.svg)}
+    #warning_evacuation_way{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/21_Gv05b-Warning_evacuation_way.svg)}
+    #warning_volcano_risk{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/22_Gv05-Warning_volcano_risk.svg)}
+    #warning_sign{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/23_Gv05-Warning_sign.svg)}
+    #authorities{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/24_Gv05b-Authorities.svg)}
+    #food{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/25_Gv05-Food.svg)}
+    #water{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/26_Gv05-Water.svg)}
+    #geo_point{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/27_Gv05-Geo_point.svg)}
+    #map_point{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/28_Gv05b-Map_point.svg)}
+    #school{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/29_Gv05-School.svg)}
+    #hospital{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/30_Gv05-Hospital.svg)}
+    #local_authority_bldg{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/31_Gv05-Local_authority_bldg.svg)}
+    #orientation{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/32_Gv05-Orientation.svg)}
+    #network{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/33_Gv05-Network.svg)}
+    #radio{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/34_Gv05-Radio.svg)}
+    #mobile_info{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/35_Gv05-Mobile_info.svg)}
+    #mobile_message{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/36_Gv05-Mobile_message.svg)}
+    #mobile_call{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/37_Gv05-Mobile_call.svg)}
+    #house{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/38_Gv05-House.svg)}
+    #shelter{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/39_Gv05-Shelter.svg)}
+    #temperature{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/40_Gv05-Temperature.svg)}
+    #time{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/41_Gv05-Time.svg)}
+    #volcano_fumarole{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/42_Gv05-Volcano_fumarole.svg)}
+    #volcano_eruption{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/43_Gv05-Volcano_eruption.svg)}
+    #volcano_ashes{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/44_Gv05b-Volcano_ashes.svg)}
+    #tsunami{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/45_Gv05-Tsunami.svg)}
+    #earthquake{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/46_Gv05-Earthquake.svg)}
+    #rainfall{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/47_Gv05-Rainfall.svg)}
+    #alluvium{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/48_Gv05-Alluvium.svg)}
+    #avalanche{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/49_Gv05b-Avalanche.svg)}
+    #forbidden{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/50_Gv05-Forbidden.svg)}
+    #flood{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/51_Gv05b-Flood.svg)}
+    #fire{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/52_Gv05b-Fire.svg)}
+    #info_point{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/53_Gv05-Info_point.svg)}
+    #not_allowed{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/54_Gv05-Not_allowed.svg)}
+    #messaging_oneway{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/55_Gv05-Messaging_oneway.svg)}
+    #messaging_twoways{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/56_Gv05-Messaging_twoways.svg)}
+    #information{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/57_Gv05-Information.svg)}
+    #north_sign{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/58_Gv05-North_sign.svg)}
+    #flagged_point{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/60_Gv05-Flagged_point.svg)}
+    #wifi{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/61_Gv05b-Wifi.svg)}
+    #internet{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/62_Gv05b-@_internet.svg)}
+    #radio_transmission{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/65_Gv05-Radio_transmission.svg)}
+    #contain_message{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/67_Gv05-Contain_message.svg)}
+    #warning_strip_1{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/68_Gv05-Warning_strip_1.svg)}
+    #warning_strip_2{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/69_Gv05-Warning_strip_2.svg)}
+    #arrow_ahead{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/71_Gv05-Arrow_ahead.svg)}
+    #arrow_turn{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/72_Gv05-Arrow_turn.svg)}
+    #arrow_backward{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/73_Gv05-Arrow_backward.svg)}
+    #two_way_horizontal{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/91_Gv05-Two_way_horizontal.svg)}
+    #two_way_vertical{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/92_Gv05-Two_way_vertical.svg)}
+    #contain_directional{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/96_Gv05-Contain_directional.svg)}
+    #contain_hexagon{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/97_Gv05-Contain_hexagon.svg)}
+
+    .legend{
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      width: auto;
+      height: auto;
+      background-color: #eee;
+      padding: 1.5em;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      -webkit-box-shadow: 3px 3px 3px 0px rgba(193, 193, 193, 0.5);
+      -moz-box-shadow: 3px 3px 3px 0px rgba(193, 193, 193, 0.5);
+      box-shadow: 3px 3px 3px 0px rgba(193, 193, 193, 0.5);
+    }

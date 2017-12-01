@@ -1,0 +1,144 @@
+/*
+Theme Name: guemil-17
+Text Domain: Guemil-17
+Author: FACO
+Author URI: http://www.faco.cl
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+html{min-height: 100%;}
+body {font-family: 'Roboto', sans-serif; background: rgba(250,250,250,1);}
+.container-flow{background:#eee; text-align:center; margin-top:3em;}
+:hover{transition: all ease .5s;}
+:lang(es){font-weight: 300;}
+h1,h2,h3,h4{font-weight:700;letter-spacing: 0.01em;}
+h5,h6{font-weight:400;letter-spacing: 0.01em;}
+header{padding:1em 0;}
+section{padding:0; margin:0 -1.5em;}
+aside{padding:2em 0 0 0; color:#666;}
+footer{padding:2em 0.5em 3em 0.5em; text-align: center; font-size:90%; letter-spacing:0.01em;}
+/* Local: Menú */
+
+h1{font-size:1.75em;}
+.encabezado-brand {margin: 0.6em 0;}
+.encabezado-nav > li {display: inline-block;}
+.encabezado-nav > li + li {margin-left: 1.5em;}
+.encabezado-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #ccc;
+  border-bottom: 2px solid transparent;
+}
+.encabezado-nav > li > a:hover,
+.encabezado-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom: 2px solid silver;
+}
+.encabezado-nav > .active > a,
+.encabezado-nav > .active > a:hover,
+.encabezado-nav > .active > a:focus {
+  color: #222;
+  border-bottom-color: #444;
+}
+@media (min-width: 768px) {
+  .encabezado-brand {float: left;}
+  .encabezado-nav {float: right;}
+}
+
+/* Local: Home */
+
+.grid-item{margin-bottom:20px;}
+
+.grid-item-content {
+background:rgb(235,235,235); padding:0.5em; clear:both; border-radius: 2px;
+transition:background ease 1s;
+}
+
+.grid-item-content:hover {
+background:rgb(215,215,215); 
+-moz-box-shadow: inset 0 0 10px rgb(210,210,210);
+-webkit-box-shadow: inset 0 0 10px rgb(210,210,210);
+box-shadow: inset 0 0 10px rgb(210,210,210);
+}
+
+.grid-item-content img{width:100%; height: auto; display: block;}
+
+
+.singlepost img{
+width:100%; 
+height:auto; 
+background:#eee;
+border-radius: 4px;
+}
+
+h4{
+font-weight:900;
+letter-spacing:0.05em;
+color:#bbb;
+}
+
+h6{
+font-weight:900;
+letter-spacing:0.1em;
+}
+
+h5{
+font-size:12px;
+}
+
+/* Local: Texto Metodológico */
+
+aside h3{
+  font-size:1.5em;
+  margin:1em 0 0.5em 0;
+}
+aside p{
+  font-size:1.2em;
+  padding-right:0.6em;
+}
+
+/* Local: Cards */
+
+article{margin:.5em .5em 2em .5em;background:rgba(255,255,255,1);padding:.8em; box-shadow: 0 0 4px rgba(0,0,0,0.1);}
+
+@media (min-width: 768px) {
+article:nth-child(4n+1) {clear: both;}
+}
+article h2{font-size:1.1em; font-weight:400; padding-bottom:0; margin-bottom:0;}
+article h3{font-size:3.5em; font-weight:300; margin:0; padding:0.1em 0 0 0;}
+article h3 small{font-size:0.5em; line-height: 0.5em;}
+article h3.aceptable{color:green;}
+article h3.inaceptable{color:red;}
+
+figure{border-radius: .2em; background:#eee; padding: 0.6em 0.6em 0.6em;}
+figure img{width:100%; height:auto;}
+figure.completamente-logrado{background:#DFF0D8; padding:1.5em;}
+figure.no-logrado{background:#F2DEDE; padding:1.5em;}
+
+.qrespuestas{background:#eee;padding:0.2em 0.1em;}
+.collapse{}
+.contador{font-size:80%;}
+.contador h5{background:#eee; padding:0.2em; font-size:1.25em;}
+.contador:nth-child(3n+1) {clear: both;}
+
+.circle{
+  position:absolute;
+  right:1.1em;
+  top:0.1em;
+  width:1.75em;
+  height:1.75em;
+  background:silver;
+  overflow:hidden;
+  border-radius:50%;
+  line-height:1.8em;
+  text-align: center;
+}
+
+a.cuenta-respuestas:hover{text-decoration:none;}
+
+a.cuenta-respuestas:hover::before{content:"↓ ";}
+
+
