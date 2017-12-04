@@ -1,10 +1,10 @@
 (function($) {
     const DEFAULT_WIDTH = "100%";
-    const DEFAULT_HEIGHT = "80px";
+    const DEFAULT_HEIGHT = "90px";
     const palette = [
         '#cccccc',
         '#aaaaaa',
-        '#999999',
+        '#888888',
         '#666666',
 
     ];
@@ -36,6 +36,8 @@
 
         for(let item of options.data) {
 
+            var img = '<div id = "image"><img src = "http://news.bbcimg.co.uk/media/images/71832000/jpg/_71832498_71825880.jpg" /></div>';
+
             let div = document.createElement('div');
             //Prepare wrapper
             div.style.display = "inline-block";
@@ -54,11 +56,11 @@
             let span = document.createElement('span');
             /*span.textContent = `${prettifyPercentage(item.percent*100)} %`;*/
             span.textContent = item.value;
-            span.style.color = "white";
             span.style.position = "absolute";
-            span.style.bottom = 8;
-            span.style.right = 8;
+            span.style.bottom = 10;
+            span.style.right = 10;
             span.style.fontSize = 12;
+            span.style.color = "white";
             span.classList.add('total-respuestas');
 
             //Title span
