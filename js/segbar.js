@@ -59,7 +59,7 @@
             span.style.bottom = 8;
             span.style.right = 8;
             span.style.fontSize = 12;
-            span.classList.add('porcentaje');
+            span.classList.add('total-respuestas');
 
             //Title span
             if(item.title && item.title.length > 0) {
