@@ -11,50 +11,55 @@
 /*  max-width: 50px;
   display: none;
 }*/
+[class="16_Evacuate"], [class="17_Evacuate_fast"], [class="27_Geo_point"],[class="06_Assembly_family"], [class="05_Assembly_group"],
+.Triangulo-amarillo, .Octagono-rojo,[class="39_Shelter"],[class="38_House"],.Assembly_Group_and_Hexagon,[class="36_Mobile_message"],[class="37_Mobile_call"],
+[class="35_Mobile_info"], [class="18_Evacuate_way_out"], [class="32_Orientation"], [class="19_Move_to_shelter"], .Hexagon_dot, [class="60_Flagged_point"],
+[class="48_Alluvium"],[class="45_Tsunami"], [class="49_Avalanche"], [class="29_School"],[class="31_Local-authority_bldg"], [class="03_Assembly_couple"],
+[class="20_Warning_tsunami_risk"], [class="51_Flood"], [class="02_Woman"], [class="07_Girl"],[class="67_Contain_message"], [class="55_Messaging_oneway"],
+[class="56_Messaging_twoways"]  {
+  background-repeat: no-repeat;  background-size: 60px;  background-position: center; }
 
-[class="16_Evacuate"]{
-  background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/16_Gv05-Evacuate.svg);
-  background-repeat: no-repeat;
-  background-size: 60px;
-  background-position: center;
-}
-[class="17_Evacuate_fast"]{
-  background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/17_Gv05-Evacuate_fast.svg);
-  background-repeat: no-repeat;
-  background-size: 60px;
-  background-position: center;
-}
+[class="16_Evacuate"]{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/16_Gv05-Evacuate.svg);}
+[class="17_Evacuate_fast"]{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/17_Gv05-Evacuate_fast.svg);}
+[class="27_Geo_point"]{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/27_Gv05-Geo_point.svg);}
+[class="06_Assembly_family"]{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/06_Gv05-Assembly_family.svg);}
+[class="05_Assembly_group"]{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/05_Gv05-Assembly_group.svg);}
+.Triangulo-amarillo{ background-image: url(../svg/triangulo_amarillo.svg);}
+.Octagono-rojo{ background-image: url(../svg/octagono_rojo.svg);}
 
-[class="27_Geo_point"]{
-  background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/27_Gv05-Geo_point.svg);
-  background-repeat: no-repeat;
-  background-size: 60px;
-  background-position: center;
-}
+[class="39_Shelter"]{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/39_Gv05-Shelter.svg)}
+[class="38_House"]{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/38_Gv05-House.svg)}
+.Assembly_Group_and_Hexagon{background-image: url(../svg/Assembly_Group_Hexagon.svg);}
 
-[class="06_Assembly_family"]{
-  background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/06_Gv05-Assembly_family.svg);
-  background-repeat: no-repeat;
-  background-size: 60px;
-  background-position: center;
-}
-[class="05_Assembly_group"]{
-  background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/05_Gv05-Assembly_group.svg);
-  background-repeat: no-repeat;
-  background-size: 60px;
-  background-position: center;
-}
+[class="36_Mobile_message"] {background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/36_Gv05-Mobile_message.svg)}
+[class="37_Mobile_call"] {background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/37_Gv05-Mobile_call.svg)}
+[class="35_Mobile_info"] {background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/35_Gv05-Mobile_info.svg)}
 
-.Triangulo-amarillo{
-  background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/93_Gv05-Contain_triangle.svg);
-  background-repeat: no-repeat;
-  background-size: 60px;
-  background-position: center;
-}
+[class="18_Evacuate_way_out"] {background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/18_Gv05-Evacuate_way_out.svg)}
+[class="32_Orientation"] {background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/32_Gv05-Orientation.svg)}
+[class="19_Move_to_shelter"] {background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/19_Gv05-Move_to_shelter.svg)}
 
-.Octagono-rojo{
-  background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/94_Gv05-Contain_octagon.svg);
-  background-repeat: no-repeat;
-  background-size: 60px;
-  background-position: center;
-}
+.Hexagon_dot{background-image: url(../svg/Hexagon_dot.svg);}
+[class="60_Flagged_point"] {background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/60_Gv05-Flagged_point.svg)}
+
+[class="48_Alluvium"] {background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/48_Gv05-Alluvium.svg)}
+[class="45_Tsunami"] {background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/45_Gv05-Tsunami.svg)}
+[class="49_Avalanche"] {background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/49_Gv05b-Avalanche.svg)}
+
+[class="29_School"] {background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/29_Gv05-School.svg)}
+[class="31_Local-authority_bldg"] {background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/31_Gv05-Local_authority_bldg.svg)}
+
+[class="03_Assembly_couple"] {background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/03_Gv05-Assembly_couple.svg)}
+
+[class="20_Warning_tsunami_risk"] {background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/20_Gv05-Warning_tsunami_risk.svg)}
+[class="51_Flood"] {background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/51_Gv05b-Flood.svg)}
+
+[class="02_Woman"]{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/02_Gv05-Woman.svg)}
+[class="07_Girl"] {background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/07_Gv05b-Girl.svg)}
+
+[class="67_Contain_message"]{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/67_Gv05-Contain_message.svg)}
+[class="55_Messaging_oneway"]{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/55_Gv05-Messaging_oneway.svg)}
+[class="56_Messaging_twoways"]{background-image: url(http://www.guemil.info/wp-content/uploads/2016/07/56_Gv05-Messaging_twoways.svg)}
+
+.total-respuestas{bottom: 6px; right: 6px;}
+.titulo{top: 10px; left: 6px;}
