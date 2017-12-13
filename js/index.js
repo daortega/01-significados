@@ -25,7 +25,7 @@ $('.chart').segbar([
         data: [/*Refugio*/
             { title: '39_Shelter', value: 154 },
             { title: '38_House', value: 40},
-            { title: 'Assembly_Group_+_Hexagon', value: 11},
+            { title: 'Assembly_Group_and_Hexagon', value: 11},
             { title: 'N.A', value: 12 }
         ]
     },
@@ -47,7 +47,7 @@ $('.chart').segbar([
     },
     {/*Formulario 3*/
         data: [ /*Ubicación*/
-            { title: 'Hexagon+dot', value: 0 },
+            { title: 'Hexagon_dot', value: 0 },
             { title: '27_Geo_point', value: 198 },
             { title: '60_Flagged_point', value: 13 },
             { title: 'N.A', value: 6 },
@@ -72,7 +72,7 @@ $('.chart').segbar([
     {/*Formulario 4*/
         data: [ /*Encuentro*/
             { title: '03_Assembly_couple', value: 31 },
-            { title: 'Hexagon+dot', value: 63 },
+            { title: 'Hexagon_dot', value: 63 },
             { title: '05_Assembly_group', value: 118 },
             { title: 'N.A', value: 12 },
         ]
