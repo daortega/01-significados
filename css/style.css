@@ -10,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 html{min-height: 100%;}
 body {font-family: 'Roboto', sans-serif; background: rgba(250,250,250,1);}
 .container-flow{background:#eee; text-align:center; margin-top:3em;}
-:hover{transition: all ease .5s;}
+:hover{transition: all ease .4s;}
 :lang(es){font-weight: 300;}
 h1,h2,h3,h4{font-weight:700;letter-spacing: 0.01em;}
 h5,h6{font-weight:400;letter-spacing: 0.01em;}
@@ -43,6 +43,9 @@ h1{font-size:1.75em;}
   color: #222;
   border-bottom-color: #444;
 }
+
+
+
 @media (min-width: 768px) {
   .encabezado-brand {float: left;}
   .encabezado-nav {float: right;}
@@ -58,7 +61,7 @@ transition:background ease 1s;
 }
 
 .grid-item-content:hover {
-background:rgb(215,215,215); 
+background:rgb(215,215,215);
 -moz-box-shadow: inset 0 0 10px rgb(210,210,210);
 -webkit-box-shadow: inset 0 0 10px rgb(210,210,210);
 box-shadow: inset 0 0 10px rgb(210,210,210);
@@ -68,8 +71,8 @@ box-shadow: inset 0 0 10px rgb(210,210,210);
 
 
 .singlepost img{
-width:100%; 
-height:auto; 
+width:100%;
+height:auto;
 background:#eee;
 border-radius: 4px;
 }
@@ -119,7 +122,7 @@ figure.completamente-logrado{background:#DFF0D8; padding:1.5em;}
 figure.no-logrado{background:#F2DEDE; padding:1.5em;}
 
 .qrespuestas{background:#eee;padding:0.2em 0.1em;}
-.collapse{}
+.multi-collapse{border: 1px solid #ccc; padding: 1em;}
 .contador{font-size:80%;}
 .contador h5{background:#eee; padding:0.2em; font-size:1.25em;}
 .contador:nth-child(3n+1) {clear: both;}
@@ -141,4 +144,15 @@ a.cuenta-respuestas:hover{text-decoration:none;}
 
 a.cuenta-respuestas:hover::before{content:"↓ ";}
 
-
+.btn-outline-secondary {
+    color: #868e96;
+    background-color: transparent;
+    background-image: none;
+    border-color: #868e96;
+  }
+  .btn-outline-secondary:hover {
+      color: white;
+      background-color: #868e96;
+      background-image: none;
+      border-color: #868e96;
+    }
