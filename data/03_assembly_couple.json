@@ -1,0 +1,678 @@
+{
+"imagen": "http://www.guemil.info/wp-content/uploads/2016/07/03_Gv05-Assembly_couple.svg",
+"nombre": "03_Assembly_couple",
+"respuestas": [
+{
+"id": 1,
+"respuesta": "Pareja",
+"puntaje": 2
+},
+{
+"id": 2,
+"puntaje": 6
+},
+{
+"id": 3,
+"respuesta": "juntos",
+"puntaje": 1
+},
+{
+"id": 4,
+"respuesta": "pareja heterosexual",
+"puntaje": 2
+},
+{
+"id": 5,
+"respuesta": "Parejar",
+"puntaje": 2
+},
+{
+"id": 6,
+"respuesta": "pareja",
+"puntaje": 2
+},
+{
+"id": 7,
+"respuesta": "couple",
+"puntaje": 2
+},
+{
+"id": 8,
+"respuesta": "Juntos",
+"puntaje": 1
+},
+{
+"id": 9,
+"respuesta": "Pareja heterosexual ",
+"puntaje": 2
+},
+{
+"id": 10,
+"respuesta": "uniÃ³n",
+"puntaje": 1
+},
+{
+"id": 11,
+"respuesta": "Mixto",
+"puntaje": 4
+},
+{
+"id": 12,
+"puntaje": 6
+},
+{
+"id": 13,
+"respuesta": "uniÃ³n ",
+"puntaje": 1
+},
+{
+"id": 14,
+"respuesta": "pareja",
+"puntaje": 2
+},
+{
+"id": 15,
+"respuesta": "permanecer juntos",
+"puntaje": 1
+},
+{
+"id": 16,
+"respuesta": "pareja",
+"puntaje": 2
+},
+{
+"id": 17,
+"respuesta": "union",
+"puntaje": 1
+},
+{
+"id": 18,
+"puntaje": 6
+},
+{
+"id": 19,
+"respuesta": "quedarse juntos",
+"puntaje": 1
+},
+{
+"id": 20,
+"puntaje": 6
+},
+{
+"id": 21,
+"respuesta": "pareja",
+"puntaje": 2
+},
+{
+"id": 22,
+"respuesta": "pareja",
+"puntaje": 2
+},
+{
+"id": 23,
+"respuesta": "pareja",
+"puntaje": 2
+},
+{
+"id": 24,
+"respuesta": " Pareja",
+"puntaje": 2
+},
+{
+"id": 25,
+"respuesta": "pareja, matrimonio, familia",
+"puntaje": 2
+},
+{
+"id": 26,
+"respuesta": "pareja",
+"puntaje": 2
+},
+{
+"id": 27,
+"respuesta": "encuentro ",
+"puntaje": 1
+},
+{
+"id": 28,
+"respuesta": "pareja",
+"puntaje": 2
+},
+{
+"id": 29,
+"respuesta": "pareja",
+"puntaje": 2
+},
+{
+"id": 30,
+"respuesta": "Encuentro",
+"puntaje": 1
+},
+{
+"id": 31,
+"respuesta": "pareja",
+"puntaje": 2
+},
+{
+"id": 32,
+"respuesta": "PAREJA",
+"puntaje": 2
+},
+{
+"id": 33,
+"respuesta": "familia",
+"puntaje": 2
+},
+{
+"id": 34,
+"respuesta": "Encuentro",
+"puntaje": 1
+},
+{
+"id": 35,
+"respuesta": "PAREJA",
+"puntaje": 2
+},
+{
+"id": 36,
+"respuesta": "Pareja ",
+"puntaje": 2
+},
+{
+"id": 37,
+"respuesta": "Familia",
+"puntaje": 2
+},
+{
+"id": 38,
+"respuesta": "Pareja",
+"puntaje": 2
+},
+{
+"id": 39,
+"respuesta": "Pareja, noviazgo",
+"puntaje": 2
+},
+{
+"id": 40,
+"respuesta": "Pareja",
+"puntaje": 2
+},
+{
+"id": 41,
+"respuesta": "couple/family",
+"puntaje": 2
+},
+{
+"id": 42,
+"respuesta": "pareja",
+"puntaje": 2
+},
+{
+"id": 43,
+"respuesta": "pareja",
+"puntaje": 2
+},
+{
+"id": 44,
+"respuesta": "pareja",
+"puntaje": 2
+},
+{
+"id": 45,
+"respuesta": "Punto de ReuniÃ³n",
+"puntaje": 1
+},
+{
+"id": 46,
+"respuesta": "Pareja",
+"puntaje": 2
+},
+{
+"id": 47,
+"respuesta": "Pareja",
+"puntaje": 2
+},
+{
+"id": 48,
+"respuesta": "Marriage",
+"puntaje": 2
+},
+{
+"id": 49,
+"respuesta": "Man and Woman",
+"puntaje": 2
+},
+{
+"id": 50,
+"respuesta": "punto de encuentro",
+"puntaje": 1
+},
+{
+"id": 51,
+"respuesta": "Pareja matrimonio",
+"puntaje": 2
+},
+{
+"id": 52,
+"puntaje": 6
+},
+{
+"id": 53,
+"respuesta": " UniÃ³n ",
+"puntaje": 1
+},
+{
+"id": 54,
+"respuesta": "pareja",
+"puntaje": 2
+},
+{
+"id": 55,
+"puntaje": 6
+},
+{
+"id": 56,
+"respuesta": "Familia",
+"puntaje": 2
+},
+{
+"id": 57,
+"puntaje": 6
+},
+{
+"id": 58,
+"respuesta": "pareja",
+"puntaje": 2
+},
+{
+"id": 59,
+"respuesta": "formar parejas",
+"puntaje": 2
+},
+{
+"id": 60,
+"respuesta": "zona peatonal",
+"puntaje": 3
+},
+{
+"id": 61,
+"respuesta": "pareja ",
+"puntaje": 2
+},
+{
+"id": 62,
+"respuesta": "Pareja ",
+"puntaje": 2
+},
+{
+"id": 63,
+"respuesta": "couple",
+"puntaje": 2
+},
+{
+"id": 64,
+"respuesta": "PAREJA",
+"puntaje": 2
+},
+{
+"id": 65,
+"respuesta": "pareja",
+"puntaje": 2
+},
+{
+"id": 66,
+"respuesta": "Union",
+"puntaje": 1
+},
+{
+"id": 67,
+"respuesta": "Pareja",
+"puntaje": 2
+},
+{
+"id": 68,
+"respuesta": "PAREJA",
+"puntaje": 2
+},
+{
+"id": 69,
+"respuesta": "unidad",
+"puntaje": 1
+},
+{
+"id": 70,
+"respuesta": "encuentro",
+"puntaje": 1
+},
+{
+"id": 71,
+"respuesta": "parejas",
+"puntaje": 2
+},
+{
+"id": 72,
+"puntaje": 6
+},
+{
+"id": 73,
+"respuesta": "zona de paseo de parejas",
+"puntaje": 4
+},
+{
+"id": 74,
+"respuesta": "pareja",
+"puntaje": 2
+},
+{
+"id": 75,
+"puntaje": 6
+},
+{
+"id": 76,
+"puntaje": 6
+},
+{
+"id": 77,
+"respuesta": "PUNTO DE REUNION",
+"puntaje": 1
+},
+{
+"id": 78,
+"respuesta": "UniÃ³n de Personas",
+"puntaje": 1
+},
+{
+"id": 79,
+"respuesta": "mantenerse juntos",
+"puntaje": 1
+},
+{
+"id": 80,
+"respuesta": "unidad",
+"puntaje": 2
+},
+{
+"id": 81,
+"puntaje": 6
+},
+{
+"id": 82,
+"respuesta": "MATRIMONIO",
+"puntaje": 3
+},
+{
+"id": 83,
+"respuesta": "pareja",
+"puntaje": 2
+},
+{
+"id": 84,
+"respuesta": "Encuentro",
+"puntaje": 1
+},
+{
+"id": 85,
+"respuesta": "pareja",
+"puntaje": 2
+},
+{
+"id": 86,
+"respuesta": "together",
+"puntaje": 1
+},
+{
+"id": 87,
+"respuesta": " Family",
+"puntaje": 2
+},
+{
+"id": 88,
+"respuesta": "couple/male and female",
+"puntaje": 2
+},
+{
+"id": 89,
+"respuesta": "man/woman",
+"puntaje": 2
+},
+{
+"id": 90,
+"respuesta": "Spouse",
+"puntaje": 3
+},
+{
+"id": 91,
+"respuesta": "family zone",
+"puntaje": 2
+},
+{
+"id": 92,
+"respuesta": "Marriage",
+"puntaje": 3
+},
+{
+"id": 93,
+"respuesta": "familia",
+"puntaje": 2
+},
+{
+"id": 94,
+"respuesta": "matrimonio",
+"puntaje": 3
+},
+{
+"id": 95,
+"respuesta": "Hombre y mujer ",
+"puntaje": 2
+},
+{
+"id": 96,
+"respuesta": "Union",
+"puntaje": 1
+},
+{
+"id": 97,
+"respuesta": "juntos",
+"puntaje": 2
+},
+{
+"id": 98,
+"respuesta": "pareja",
+"puntaje": 2
+},
+{
+"id": 99,
+"respuesta": "Pareja",
+"puntaje": 2
+},
+{
+"id": 100,
+"respuesta": "Pareja",
+"puntaje": 2
+},
+{
+"id": 101,
+"respuesta": "compromiso de pareja",
+"puntaje": 4
+},
+{
+"id": 102,
+"respuesta": "Pareja",
+"puntaje": 2
+},
+{
+"id": 103,
+"respuesta": "Couple",
+"puntaje": 2
+},
+{
+"id": 104,
+"respuesta": "Couple",
+"puntaje": 2
+},
+{
+"id": 105,
+"respuesta": "couple",
+"puntaje": 2
+},
+{
+"id": 106,
+"respuesta": "Elderly/couples",
+"puntaje": 3
+},
+{
+"id": 107,
+"respuesta": "Marriage",
+"puntaje": 4
+},
+{
+"id": 108,
+"respuesta": "pareja",
+"puntaje": 2
+},
+{
+"id": 109,
+"respuesta": "Familia",
+"puntaje": 2
+},
+{
+"id": 110,
+"respuesta": "PERSONA",
+"puntaje": 3
+},
+{
+"id": 111,
+"puntaje": 6
+},
+{
+"id": 112,
+"respuesta": "PAREJA",
+"puntaje": 2
+},
+{
+"id": 113,
+"respuesta": "ENCUENTRO",
+"puntaje": 1
+},
+{
+"id": 114,
+"respuesta": "PAREJA",
+"puntaje": 2
+},
+{
+"id": 115,
+"respuesta": "ZONA DE ENCUENTRO",
+"puntaje": 1
+},
+{
+"id": 116,
+"respuesta": "REUNIRSE",
+"puntaje": 1
+},
+{
+"id": 117,
+"respuesta": "ReuniÃ³n",
+"puntaje": 1
+},
+{
+"id": 118,
+"respuesta": "ENCUENTRO",
+"puntaje": 1
+},
+{
+"id": 119,
+"respuesta": "pareja heterosexaul",
+"puntaje": 2
+},
+{
+"id": 120,
+"respuesta": "permanecer juntos",
+"puntaje": 2
+},
+{
+"id": 121,
+"respuesta": "PAREJA",
+"puntaje": 2
+},
+{
+"id": 122,
+"respuesta": "PAREJA",
+"puntaje": 2
+},
+{
+"id": 123,
+"respuesta": "UNIDOS",
+"puntaje": 3
+},
+{
+"id": 124,
+"respuesta": "ENCUENTRO",
+"puntaje": 1
+},
+{
+"id": 125,
+"respuesta": "ZONA DE PAREJAS",
+"puntaje": 4
+},
+{
+"id": 126,
+"puntaje": 6
+},
+{
+"id": 127,
+"respuesta": "PAREJA",
+"puntaje": 2
+},
+{
+"id": 128,
+"respuesta": "HOMBRES Y MUJERES",
+"puntaje": 3
+},
+{
+"id": 129,
+"respuesta": "PAREJA",
+"puntaje": 2
+},
+{
+"id": 130,
+"respuesta": "A couple",
+"puntaje": 2
+},
+{
+"id": 131,
+"respuesta": "Mixto",
+"puntaje": 4
+},
+{
+"id": 132,
+"respuesta": "Toilet",
+"puntaje": 4
+},
+{
+"id": 133,
+"respuesta": "compaÃ±ero",
+"puntaje": 4
+},
+{
+"id": 134,
+"respuesta": "PAREJA",
+"puntaje": 2
+},
+{
+"id": 135,
+"respuesta": "couple",
+"puntaje": 2
+},
+{
+"id": 136,
+"respuesta": "pareja",
+"puntaje": 2
+},
+{
+"id": 137,
+"respuesta": "Pareja",
+"puntaje": 2
+}
+]
+}
