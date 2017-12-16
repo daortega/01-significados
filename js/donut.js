@@ -1,4 +1,3 @@
-
 var radius = 74,
     padding = 10;
 
@@ -64,23 +63,23 @@ d3.csv("data/data.csv", function(error, data) {
             .data(function(d) { return pie(d.ages); })
             //Para añadir ToolTips o PopOver
           .enter().append("a")
-              .attr("class", "tooltip-test") 
-                .attr("href", "#")
-             /* .attr("title", function(d) { return d.data.name; })
+              .attr("class", "tooltip-test")
+              /*.attr("href", "#")
+              .attr("title", function(d) { return d.data.name; })
               .attr("data-toggle", "popover")
               .attr("data-trigger", "click")  //poner hover o click
               .attr("data-container", "section")
-              .attr("data-content", function(d) { return d.data.population; })*/
-          //POPOVER YEAAAHHH
+              .attr("data-content", function(d) { return d.data.population; })
+          //POPOVER YEAAAHHH*/
               .on('mouseover', function(d) {
                   $("#tooltip")
-                    .html(d.data.name + ": " + d.data.population + " answers")
+                    .html(d.data.name + ": " + "<br>"  + d.data.population + " answers")
                     .show();
               })
               .on('mousemove', function(d) {
                   $("#tooltip")
-                    .css('left', d3.event.pageX-20)
-                    .css('top', d3.event.pageY-200);
+                    .css('left', d3.event.pageX-60)
+                    .css('top', d3.event.pageY-280);
               })
 
               .on('mouseout', function(d) {
@@ -98,8 +97,11 @@ d3.csv("data/data.csv", function(error, data) {
                 svg.append("text")
                     .attr("dy", "35")
                     .style("text-anchor", "middle")
-                    .style("font-size", "24")
-                    .text(function(d) { return +d.Correct + +d.Incorrect + +d.Almost_Correct + +d.Doubtful + +d.Opposite + +d.No_answer; });
+                    .style("font-size", "21")
+                    //.text(function(d) { return +d.Correct + +d.Incorrect + +d.Almost_Correct + +d.Doubtful + +d.Opposite + +d.No_answer; })
+                    .text(function(d) { return d3.format("d")((+d.Correct + (+d.Almost_Correct*0.75) + (+d.Doubtful*0.5))*100/(+d.Correct + +d.Incorrect + +d.Almost_Correct + +d.Doubtful + +d.Opposite + +d.No_answer)) + "%"; })
+    
+                    ;
 
 
 });
