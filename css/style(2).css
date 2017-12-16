@@ -107,3 +107,18 @@ float: left; display: inline;
       -moz-box-shadow: 3px 3px 3px 0px rgba(193, 193, 193, 0.5);
       box-shadow: 3px 3px 3px 0px rgba(193, 193, 193, 0.5);
     }
+
+  @media (max-width: 370px) {
+      .donut {padding: 0em 2em;}
+      .legend {right: 20px; bottom: 10px;}
+
+    }
+
+    @media (max-width: 480px) {
+      .donut {padding: 0em 1.5em;}
+      .legend {right: 20px; bottom: 15px;}
+    }
+
+    @media (min-width: 768px) {
+      .donut {padding: 0em 1.5em;}
+    }
