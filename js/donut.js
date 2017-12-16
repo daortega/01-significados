@@ -63,7 +63,15 @@ d3.csv("data/data.csv", function(error, data) {
         svg.selectAll(".arc") //era .arc
             .data(function(d) { return pie(d.ages); })
             //Para añadir ToolTips o PopOver
-          //POPOVER YEAAAHHH
+          .enter().append("a")
+              .attr("class", "tooltip-test")
+              /*.attr("href", "#")
+              .attr("title", function(d) { return d.data.name; })
+              .attr("data-toggle", "popover")
+              .attr("data-trigger", "click")  //poner hover o click
+              .attr("data-container", "section")
+              .attr("data-content", function(d) { return d.data.population; })
+          //POPOVER YEAAAHHH*/
               .on('mouseover', function(d) {
                   $("#tooltip")
                     .html(d.data.name + ": " + d.data.population + " answers")
