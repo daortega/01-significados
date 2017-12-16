@@ -36,8 +36,6 @@
 
         for(let item of options.data) {
 
-            var img = '<div id = "image"><img src = "http://news.bbcimg.co.uk/media/images/71832000/jpg/_71832498_71825880.jpg" /></div>';
-
             let div = document.createElement('div');
             //Prepare wrapper
             div.style.display = "inline-block";
@@ -46,10 +44,9 @@
             div.style.backgroundColor = (item.color) ? item.color : colorIt.next().value;
             div.style.position = "relative";
             div.setAttribute('data-toggle', "popover");
-            div.setAttribute('data-trigger', "hover");
+            div.setAttribute('data-trigger', "click");
             div.setAttribute('title', "Detalle respuestas");
               div.setAttribute('data-content',item.title + ": " + prettifyPercentage(item.percent*100) + "%" + " ("+ item.value + ")");
-            div.classList.add(item.title);
 
 
             //Percentage span
