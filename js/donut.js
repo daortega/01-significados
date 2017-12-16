@@ -100,7 +100,6 @@ d3.csv("data/data.csv", function(error, data) {
                     .style("font-size", "21")
                     //.text(function(d) { return +d.Correct + +d.Incorrect + +d.Almost_Correct + +d.Doubtful + +d.Opposite + +d.No_answer; })
                     .text(function(d) { return d3.format("d")((+d.Correct + (+d.Almost_Correct*0.75) + (+d.Doubtful*0.5))*100/(+d.Correct + +d.Incorrect + +d.Almost_Correct + +d.Doubtful + +d.Opposite + +d.No_answer)) + "%"; })
-    
                     ;
 
 
