@@ -108,17 +108,45 @@ float: left; display: inline;
       box-shadow: 3px 3px 3px 0px rgba(193, 193, 193, 0.5);
     }
 
-  @media (max-width: 370px) {
+    @media (max-width: 370px) {
       .donut {padding: 0em 2em;}
       .legend {right: 20px; bottom: 10px;}
+      #tooltip {top: 0px; left: 0px;}
 
     }
 
     @media (max-width: 480px) {
       .donut {padding: 0em 1.5em;}
       .legend {right: 20px; bottom: 15px;}
+      #tooltip {top: -40px; left: 0px;}
     }
 
     @media (min-width: 768px) {
       .donut {padding: 0em 1.5em;}
+    }
+
+    #chart {
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    width: 100px;
+    }
+    .tooltip {
+    box-shadow: 0 0 5px #999999;
+    display: none;
+    font-size: 14px;
+    left: 12px;
+    top: 12px;
+    padding: 5px;
+    position: absolute;
+    text-align: center;
+    width: 76px;
+    height: 76px;
+    z-index: 100;
+    line-height: 140%; /*Interlineado*/
+    font-weight: 300;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border-radius: 60px;
+    opacity: 1;
     }
