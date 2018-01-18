@@ -78,8 +78,8 @@ d3.csv("data/data.csv", function(error, data) {
               })
               .on('mousemove', function(d) {
                   $("#tooltip")
-                    .css('left', d3.event.pageX-60)
-                    .css('top', d3.event.pageY-280);
+                    .css('left', d3.event.pageX-80) //original -60
+                    .css('top', d3.event.pageY-260); //original-280
               })
 
               .on('mouseout', function(d) {
@@ -100,7 +100,7 @@ d3.csv("data/data.csv", function(error, data) {
                     .style("font-size", "21")
                     //.text(function(d) { return +d.Correct + +d.Incorrect + +d.Almost_Correct + +d.Doubtful + +d.Opposite + +d.No_answer; })
                     .text(function(d) { return d3.format("d")((+d.Correct + (+d.Almost_Correct*0.75) + (+d.Doubtful*0.5))*100/(+d.Correct + +d.Incorrect + +d.Almost_Correct + +d.Doubtful + +d.Opposite + +d.No_answer)) + "%"; })
-                    ;
+
 
 
 });
