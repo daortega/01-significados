@@ -43,8 +43,9 @@
             div.style.width = `${parseFloat(item.percent*100)}%`;
             div.style.backgroundColor = (item.color) ? item.color : colorIt.next().value;
             div.style.position = "relative";
+            div.classList.add(item.title);
             div.setAttribute('data-toggle', "popover");
-            div.setAttribute('data-trigger', "click");
+            div.setAttribute('data-trigger', "hover");
             div.setAttribute('title', "Detalle respuestas");
               div.setAttribute('data-content',item.title + ": " + prettifyPercentage(item.percent*100) + "%" + " ("+ item.value + ")");
 
