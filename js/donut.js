@@ -10,7 +10,7 @@ var arc = d3.svg.arc()
 
 var pie = d3.layout.pie()
     .sort(null)
-    .value(function(d) { return d.population; });
+    .value(function (d) {return d.population;});
 
 d3.csv("data/data.csv", function(error, data) {
   if (error) throw error;
@@ -20,7 +20,7 @@ d3.csv("data/data.csv", function(error, data) {
 
     data.forEach(function(d) {
       d.ages = color.domain().map(function(name) {
-        return {name: name,population: +d[name]};
+        return {name: name, population: +d[name]};
       });
     });
 
@@ -73,13 +73,14 @@ d3.csv("data/data.csv", function(error, data) {
           //POPOVER YEAAAHHH*/
               .on('mouseover', function(d) {
                   $("#tooltip")
-                    .html(d.data.name + ": " + "<br>"  + d.data.population + " answers")
+                    //.html(d.data.name + ": " + "<br>"  + d.data.population + " answers")
+                    .html(d.data.name + ": " +  d.data.population)
                     .show();
               })
-              .on('mousemove', function(d) {
+              .on('mousemove', function (d) {
                   $("#tooltip")
-                    .css('left', d3.event.pageX-80) //original -60
-                    .css('top', d3.event.pageY-260); //original-280
+                    .css('left', d3.event.pageX - 65) //original -60
+                    .css('top', d3.event.pageY - 265); //original-280
               })
 
               .on('mouseout', function(d) {
