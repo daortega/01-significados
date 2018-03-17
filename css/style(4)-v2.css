@@ -63,3 +63,10 @@
 
 .total-respuestas{bottom: 6px; right: 6px;}
 .titulo{top: 6px; left: 6px;}
+
+.peque {height: 35px; padding: 4px; border: 2px solid #bbb;}
+
+.opciones{display: inline; margin: 0 2px}
+.opciones:last-child{margin: 0 0 0 2px}
+
+.derecha{text-align: right;}
