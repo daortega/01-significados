@@ -69,4 +69,7 @@
 .opciones{display: inline; margin: 0 2px}
 .opciones:last-child{margin: 0 0 0 2px}
 
+
 .derecha{text-align: right;}
+
+ @media (max-width: 767px){.derecha{text-align: left;}}
