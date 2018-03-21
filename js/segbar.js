@@ -71,7 +71,6 @@
                 span.textContent = item.title;
                 span.style.fontSize = "12px";
                 span.style.fontWeight = 600;
-                span.style.textTransform = "uppercase";
                 span.classList.add('titulo');
                 div.appendChild(span);
             }
